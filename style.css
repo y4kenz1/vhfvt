@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Bold;
+    src: url(IBM-Plex-Mono/IBMPlexMono-Bold.otf);
+}
+
+* {
+    font-family: Bold;
+    color: black;
+    /* position: relative; */
+}
+    
+    .words {
+      margin: 0;
+      position: absolute;
+      top: 45%;
+      left: 55%;
+      transform: translate(-50%, -50%);
+    }
+
+.word::first-letter {
+    font-size: 2.5rem;
+}
+
+.word {
+    margin: 0;
+}
